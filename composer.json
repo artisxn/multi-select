@@ -1,0 +1,46 @@
+{
+  "name": "codicastudio/multi-select",
+  "description": "A noobs worthless garbage, just learning.",
+  "keywords": [
+      "worthless garabage by a noob."
+  ],
+  "authors": [
+    {
+      "name": "Michael J Brown",
+      "email": "codicastudiodev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4.8",
+    "laravel/nova": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "codicastudio\\MultiselectField\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "codicastudio\\MultiselectField\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ]
+}
