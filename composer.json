@@ -21,7 +21,7 @@
       "codicastudio\\MultiselectField\\": "src/"
     }
   },
-  "extra": {
+  "extra": { 
     "laravel": {
       "providers": [
         "codicastudio\\MultiselectField\\FieldServiceProvider"
